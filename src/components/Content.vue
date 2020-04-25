@@ -76,7 +76,7 @@
                 </div>
               </div>
             </div>
-            <div class="flex flex-row text-gray-600 tracking-widest">
+            <div class="flex flex-row text-gray-600 tracking-widest h-med">
               <div
                 class="border-solid border-gray-400 border-b-4 w-1/2 flex justify-center pb-2 cursor-pointer"
                 :class="{ 'border-gray-600': todayWeather }"
@@ -118,6 +118,7 @@ export default {
           this.current_temp = Math.floor(this.weather_today[0].main.temp);
           console.log(this.weather_today);
         } catch (err) {
+          alert("Wrong City name");
           console.log(err);
         }
       }

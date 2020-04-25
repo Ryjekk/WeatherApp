@@ -38,8 +38,25 @@
   .h-wrapper {
     height: 90%;
   }
-  
-}
-.h-temp {
-  height: 25rem;
+  .h-temp {
+    height: 25rem;
+  }
+  .wave{
+    height: auto;
+  }
+
+  @media only screen and (max-height: 1175px) {
+    .h-temp {
+      height: 15rem;
+    }
+    .h-med {
+      padding-bottom: 2rem;
+    }
+  }
+   @media only screen and (max-height: 990px) {
+    .bg-app-img {
+      background-image: url("../images/back-app-small.jpg");
+      filter: hue-rotate(25deg);
+    }
+  }
 }
