@@ -1,5 +1,7 @@
 import Vue from "vue";
 import App from "./App.vue";
+import "./assets/css/tailwind.css";
+require("dotenv").config();
 
 Vue.config.productionTip = false;
 

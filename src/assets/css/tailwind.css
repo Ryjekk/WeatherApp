@@ -1,0 +1,45 @@
+/* purgecss start ignore */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+/* purgecss end ignore */
+@import 'tailwindcss/utilities';
+
+
+@responsive {
+  .bg-img {
+  background-image: url("../images/back.jpg");
+  }
+  .bg-app-img {
+    background-image: url("../images/back-app.jpg");
+    filter: hue-rotate(25deg);
+  }
+  .h-bg {
+    height: calc(100vh - 3rem);
+  }
+  .sm-h-bg {
+    height: 100vh;
+  }
+  .rounded-xl {
+    border-radius: 30px;
+  }
+  .rounded-b-xl {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  .shadow-3xl {
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.4)
+  }
+  .w-md-wrapper {
+    width: 600px;
+  }
+  .w-xl-wrapper{
+    width: 700px;
+  }
+  .h-wrapper {
+    height: 90%;
+  }
+  
+}
+.h-temp {
+  height: 25rem;
+}
