@@ -1,24 +1,6 @@
-# weather-app
-
-## Project setup
+# Weathero
+[Live Site](https://weathero.netlify.app/) | [Creator](https://ryjewsky.netlify.app/)
 ```
-npm install
+Minimal React Weather Application that helps you to check local weather
 ```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![AppPic](/appPic.png)
